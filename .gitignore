@@ -1,0 +1,20 @@
+# dist/ 与构建产物
+dist/
+*.exe
+*.zip
+*.pdb
+*.obj
+
+# 临时文件
+*.tmp
+*.bak
+*.log
+Thumbs.db
+desktop.ini
+
+# 编辑器 / IDE
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo

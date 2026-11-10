@@ -69,8 +69,11 @@
 
 到 [Releases](../../releases) 下载：
 
-- `Co_cofe建模看图工具_安装版.exe` — 向导安装，可在「设置 → 应用」里卸载
-- `Co_cofe建模看图工具.exe` — 绿色版，双击即用（欢迎页底图已内嵌，单文件也完整）
+- `CoCofe-Viewer-v1.0.0-setup.exe` — 安装版，向导安装，可在「设置 → 应用」里卸载
+- `CoCofe-Viewer-v1.0.0-portable.exe` — 绿色版，双击即用（欢迎页底图已内嵌，单文件也完整）
+
+> 程序自身叫「Co_cofe建模看图工具」；Release 附件名用英文，是因为 GitHub 会把
+> 非 ASCII 文件名替换掉（试过中文名，会被改成 `Co_cofe.exe` 这种）。
 
 > 程序未做代码签名，首次运行时 Windows SmartScreen 可能提示"未知发布者"，
 > 点「更多信息 → 仍要运行」即可。
@@ -80,7 +83,7 @@
 不需要 Visual Studio，用 Windows 自带的 .NET Framework 编译器即可：
 
 ```powershell
-git clone https://github.com/<你的用户名>/co-cofe-viewer.git
+git clone https://github.com/x0717-zmy/co-cofe-viewer.git
 cd co-cofe-viewer
 powershell -ExecutionPolicy Bypass -File build\build.ps1
 ```
